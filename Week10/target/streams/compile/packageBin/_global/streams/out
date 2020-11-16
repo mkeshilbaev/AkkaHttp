@@ -1,0 +1,35 @@
+[debug] Packaging /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/untitled_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	consumerApp2$delayedInit$body.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/consumerApp2$delayedInit$body.class
+[debug] 	OffsetStore.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/OffsetStore.class
+[debug] 	consumerApp2.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/consumerApp2.class
+[debug] 	consumerApp2$.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/consumerApp2$.class
+[debug] 	consumerApp3$delayedInit$body.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/consumerApp3$delayedInit$body.class
+[debug] 	consumerApp3.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/consumerApp3.class
+[debug] 	MainApp.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/MainApp.class
+[debug] 	consumerApp$.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/consumerApp$.class
+[debug] 	MainApp$delayedInit$body.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/MainApp$delayedInit$body.class
+[debug] 	application.conf
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/application.conf
+[debug] 	consumerApp$consumerApp$delayedInit$body.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/consumerApp$consumerApp$delayedInit$body.class
+[debug] 	consumerApp3$.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/consumerApp3$.class
+[debug] 	MainApp$.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/MainApp$.class
+[debug] 	consumerApp$consumerApp$.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/consumerApp$consumerApp$.class
+[debug] 	consumerApp$OffsetStore.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/consumerApp$OffsetStore.class
+[debug] 	consumerApp.class
+[debug] 	  /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes/consumerApp.class
+[debug] Done packaging.

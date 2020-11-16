@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/untitled_2.13-0.2-sources.jar ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/m.keshilbaev/KBTU/scala/untitled/src/main/resources/application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	consumerApp2.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/m.keshilbaev/KBTU/scala/untitled/src/main/scala/consumerApp2.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ConsumerApp3.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/m.keshilbaev/KBTU/scala/untitled/src/main/scala/ConsumerApp3.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MainApp.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/m.keshilbaev/KBTU/scala/untitled/src/main/scala/MainApp.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	consumerApp.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/m.keshilbaev/KBTU/scala/untitled/src/main/scala/consumerApp.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m[0J

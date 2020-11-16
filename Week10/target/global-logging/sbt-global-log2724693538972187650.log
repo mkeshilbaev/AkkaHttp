@@ -1,0 +1,93 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.2 (Oracle Corporation Java 14.0.2)
+[debug]       Load.loadUnit: plugins took 73.105638ms
+[debug]       Load.loadUnit: defsScala took 0.247493ms
+[debug] [Loading] Scanning directory /Users/m.keshilbaev/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/m.keshilbaev/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 22.788077 ms
+[debug]           Load.resolveProject(global-plugins) took 47.060043ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/m.keshilbaev/.sbt/1.0/plugins, plugins: List(<none>))) took 94.755199ms
+[debug] [Loading] Done in /Users/m.keshilbaev/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 119.585356ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.312336ms
+[debug]     Load.loadUnit(file:/Users/m.keshilbaev/.sbt/1.0/plugins/, ...) took 200.528692ms
+[debug]   Load.apply: load took 1102.67971ms
+[debug]   Load.apply: resolveProjects took 6.454978ms
+[debug]   Load.apply: finalTransforms took 53.385905ms
+[debug]   Load.apply: config.delegates took 6.923424ms
+[debug]   Load.apply: Def.make(settings)... took 321.558367ms
+[debug]   Load.apply: structureIndex took 78.596342ms
+[debug]   Load.apply: mkStreams took 1.442604ms
+[info] loading global plugins from /Users/m.keshilbaev/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3183.82971ms
+[debug]           Load.loadUnit: plugins took 18.153896ms
+[debug]           Load.loadUnit: defsScala took 0.006744ms
+[debug] [Loading] Scanning directory /Users/m.keshilbaev/KBTU/scala/untitled/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/m.keshilbaev/KBTU/scala/untitled/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.632252 ms
+[debug]               Load.resolveProject(untitled-build) took 1.083297ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id untitled-build, base: /Users/m.keshilbaev/KBTU/scala/untitled/project, plugins: List(<none>))) took 3.18725ms
+[debug] [Loading] Done in /Users/m.keshilbaev/KBTU/scala/untitled/project, returning: (untitled-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 4.564627ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.011406ms
+[debug]         Load.loadUnit(file:/Users/m.keshilbaev/KBTU/scala/untitled/project/, ...) took 23.288483ms
+[debug]       Load.apply: load took 24.383107ms
+[debug]       Load.apply: resolveProjects took 0.092569ms
+[debug]       Load.apply: finalTransforms took 11.261599ms
+[debug]       Load.apply: config.delegates took 0.29276ms
+[debug]       Load.apply: Def.make(settings)... took 68.573979ms
+[debug]       Load.apply: structureIndex took 26.367641ms
+[debug]       Load.apply: mkStreams took 0.002198ms
+[info] loading project definition from /Users/m.keshilbaev/KBTU/scala/untitled/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 310.873185ms
+[debug]     Load.loadUnit: defsScala took 0.00415ms
+[debug] [Loading] Scanning directory /Users/m.keshilbaev/KBTU/scala/untitled
+[debug]       Load.loadUnit: mkEval took 4.75078ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/m.keshilbaev/KBTU/scala/untitled, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.209739 ms
+[info] loading settings for project untitled from build.sbt ...
+[debug]         Load.resolveProject(untitled) took 2.537783ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id untitled, base: /Users/m.keshilbaev/KBTU/scala/untitled, plugins: List(<none>))) took 4.185148ms
+[debug] [Loading] Done in /Users/m.keshilbaev/KBTU/scala/untitled, returning: (untitled)
+[debug]     Load.loadUnit: loadedProjectsRaw took 136.129123ms
+[debug]     Load.loadUnit: cleanEvalClasses took 4.321072ms
+[debug]   Load.loadUnit(file:/Users/m.keshilbaev/KBTU/scala/untitled/, ...) took 451.999588ms
+[debug] Load.apply: load took 453.168675ms
+[debug] Load.apply: resolveProjects took 0.079153ms
+[debug] Load.apply: finalTransforms took 8.837495ms
+[debug] Load.apply: config.delegates took 0.30357ms
+[debug] Load.apply: Def.make(settings)... took 94.515547ms
+[debug] Load.apply: structureIndex took 22.150721ms
+[debug] Load.apply: mkStreams took 0.002495ms
+[info] set current project to untitled (in build file:/Users/m.keshilbaev/KBTU/scala/untitled/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to /Users/m.keshilbaev/KBTU/scala/untitled/target/scala-2.13/classes ...
+[warn] 1 deprecation (since 2.6.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
